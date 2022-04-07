@@ -1,2 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css";  
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+body{
+  margin:0;
+  padding: 0;
+}
+
+p{
+  margin:0;
+}
+
+
+ul{
+  list-style-type: none;
+  padding:0;
+}
+
+/* WRAPPER CLASS*/
+.p-wrapper{
+  position: relative;
+}
+
+.p-wrapper::before{
+  content: '';
+  background: slateblue;
+  height: 100vh;
+  width: 25vw;
+  position: absolute;
+  z-index: -1;
+}
