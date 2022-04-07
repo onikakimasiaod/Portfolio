@@ -36,3 +36,19 @@ header ul li:first-child{
 header ul li:last-child{
   padding-right: 0;
 }
+
+header ul li a{
+  color: #000;
+  font-weight: 500;
+}
+
+/*header ul li a:hover::after, header ul li a.is-active::after{
+  content:'';
+  background: slateblue;
+  height: 9px;
+  position: absolute;
+  left: 1px;
+  z-index: -1;
+  bottom: 8;
+  right: -3px;
+}*/
