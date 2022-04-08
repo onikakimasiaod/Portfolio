@@ -6,14 +6,14 @@
   background-position: top;
   background-repeat: no-repeat;
 }
-*/
+
 .p-tag{
+  display: flex;
+  justify-content: center;
+  text-align: center;
   background-color: #989898;
   color: #fff;
   padding: 5px 10px;
   font-size: 14px;
 }
-
-.p-des{
-
-}
+*/

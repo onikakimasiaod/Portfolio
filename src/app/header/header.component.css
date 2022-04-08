@@ -2,24 +2,6 @@ header{
   padding: 30px 0;
 }
 
-.p-hamburger{
-  cursor: pointer;
-}
-
-
-
-.p-hamburger span{
-  width: 20px;
-  height: 3px;
-  background-color: #000;
-  display: block;
-  margin-bottom: 4px;
-}
-
-.p-hamburger span:last-child{
-  margin-bottom: 0;
-}
-
 header ul{
   display: flex;
   align-items: center;

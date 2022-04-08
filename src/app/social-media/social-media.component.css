@@ -1,18 +1,29 @@
 .social-media{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4vh;
-  left:0;
-  top: 30%;
-  position: fixed;
   background-color: white;
   width: 6vh;
-  border-radius: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition:all 0.25s;
+}
+.icon-media{
+  margin: 2vh;
 }
 
-.icon-media:hover{
-  transform: translateY(-15px);
+@media (min-width: 1000px) {
+  .social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    left:0;
+    top: 30%;
+    position: fixed;
+    background-color: white;
+    width: 6vh;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition:all 0.25s;
+  }
+
+  .icon-media:hover{
+    transform: translateY(-15px);
+  }
 }
+
