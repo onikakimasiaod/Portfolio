@@ -21,7 +21,6 @@ a, a:hover{
   text-decoration: none;
 }
 
-
 h1, h2, h3, h4, h5, h6{
   font-weight: 700;
 }
@@ -86,7 +85,7 @@ h1, h2, h3, h4, h5, h6{
   font-size: 14px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 500px) {
   body{
     margin:0;
     padding: 0;
@@ -163,6 +162,8 @@ h1, h2, h3, h4, h5, h6{
   }
 
   .p-tag{
+    display: block;
+    width:30vh;
     background-color: #989898;
     color: #fff;
     padding: 5px 10px;

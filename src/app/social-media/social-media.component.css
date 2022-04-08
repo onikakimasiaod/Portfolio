@@ -6,7 +6,7 @@
   margin: 2vh;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .social-media{
     display: flex;
     flex-direction: column;
