@@ -1,0 +1,11 @@
+.social-media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+  left:0;
+  top: 30%;
+  position: fixed;
+  background-color: white;
+  width: 6vh;
+}
